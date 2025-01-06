@@ -1,0 +1,14 @@
+phidata
+python-dotenv
+packaging
+fastapi
+uvicorn
+groq
+openai
+streamlit
+sqlalchemy
+pgvector
+psycopg[binary]
+pypdf
+psycopg2
+psycopg2-binary
