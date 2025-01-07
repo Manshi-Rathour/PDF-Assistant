@@ -1,10 +1,21 @@
 # PDF-Assistant
 
+The **PDF Assistant** is a Python-based application designed to help users interact with PDF documents using a knowledge-based approach. It leverages PostgreSQL for storage, a vector database for efficient document retrieval, and the phidata framework to provide a seamless experience for managing and querying PDF content.
 
+## Features
 
+- **Pre-Trained on NLP Content**: The assistant is pre-trained on the book *Practical Natural Language Processing* by O'Reilly.
+- **Customizable Training**: Users can upload any PDF documents to the `pdfs` folder, and the assistant will train on those files instead.
+- **PDF URL Knowledge Base**: Optionally supports loading PDFs directly from URLs (commented in the code for now).
+- **Vector Database Integration**: Uses `PgVector` for efficient vectorized queries on PDF content.
+- **PostgreSQL Storage**: Stores and retrieves assistant sessions and metadata in a PostgreSQL database.
+- **Interactive CLI**: Provides a Command-Line Interface (CLI) for interacting with the assistant.
+
+  
 ## Prerequisites
 - **Git:** <a href="https://git-scm.com/" target="_blank">Download and Install Git</a>
 - **Groq:** <a href="https://groq.com/" target="_blank">Get free API key after login</a>
+- **Docker**: For running PostgreSQL locally
 
 ## Installation
 To utilize PDF Assistant locally, follow these steps:
