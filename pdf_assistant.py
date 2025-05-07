@@ -13,10 +13,10 @@ load_dotenv()
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 # using database on localhost
-# db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai"
+db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai"
 
 # using PostgresSQL on AWS
-db_url = os.getenv("DB_URL")
+# db_url = os.getenv("DB_URL")
 
 
 # knowledge base for pdf url
